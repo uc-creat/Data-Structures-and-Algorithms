@@ -35,11 +35,11 @@ while(y <= n):  # Comparsion -- (y<=n), but this comparison takes place until y>
 
 ## Order of Growth:
 
-* Constant                               |  
-* log(n)                                 | 
-* Linear - (n)                           |
-* nlog(n)                                |    INCREASES THE ORDER 
-* quadratic - (n^2)                      |
-* cubic - (n^3)                          | 
-* exponential - (c^n) # c = constant     V
+* Constant                                
+* log(n)                                  
+* Linear - (n)                           
+* nlog(n)                                   
+* quadratic - (n^2)                      
+* cubic - (n^3)                           
+* exponential - (c^n), where c = constant     
                                            
