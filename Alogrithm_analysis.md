@@ -22,3 +22,14 @@ Time complexity in simple words is that - how much time will a code take for exe
     1. Returning of a function
 
 
+Eg:
+df
+```py
+int x = 0
+int y = 1
+while(y <= n):
+   x += 1
+   y += 1
+```
+
+
