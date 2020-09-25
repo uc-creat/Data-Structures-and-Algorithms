@@ -23,13 +23,14 @@ Time complexity in simple words is that - how much time will a code take for exe
 
 
 Eg:
-df
 ```py
-int x = 0
-int y = 1
-while(y <= n):
-   x += 1
-   y += 1
+int x = 0  # int x --> declaration statement -- taking constant amount of time = 1, x = 0 --> assignment operation -- constant time = 1, total time = 2
+int y = 1  # int y --> declaration statement -- taking constant amount of time = 1, y = 1 --> assignment operation -- constant time = 1, total time = 2  
+while(y <= n):  # Comparsion -- (y<=n), but this comparison takes place until y>n, therefore it runs (n+1) times
+   x += 1  # arithmetic operation -- as each arithmetic operation takes constant amount of time = 1, and it will run for n times, therefore time taken = n*1 = n
+   y += 1  # arithmetic operation -- as each arithmetic operation takes constant amount of time = 1, and it will run for n times, therefore time taken = n*1 = n
+   
+# Total time = ( 2 + 2 + n + n + (n+1)) = (3n + 5)
 ```
 
 
