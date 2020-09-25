@@ -158,4 +158,10 @@ type takes, so in python --
 
 | Primitive data types | Bytes |
 | ---------------------| ------|
-| Boolean              | 1     |
+| Boolean              |  1    |
+| char                 |  2    |
+| int                  |  4    |
+| float                |  4    |
+| long                 |  8    |
+| double               |  8    |
+| ---------------------| ------|
