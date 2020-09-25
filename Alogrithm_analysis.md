@@ -53,7 +53,10 @@ These 3 case can be represented in terms of notations called, Asymtotic Notation
 
 ### Big Ω - Notation: (Best Case)
  
-   ![](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-3.png)
+
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-3.png)
+
 
 
 **Ω(g(n)) = { f(n): there exist positive constants c and n0 such that 0 ≤ cg(n) ≤ f(n) for all n ≥ n0 }**
@@ -86,7 +89,7 @@ for which an algorithm can run/ this is the lower bound of the algorithm and it 
 
 ### Big O - Notation: (Worst Case)
 
-    ![](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-2.png)
+   ![](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-2.png)
 
 
 **O(g(n)) = { f(n): there exist positive constants c and n0 such that 0 ≤ f(n) ≤ cg(n) for all n ≥ n0 }**
