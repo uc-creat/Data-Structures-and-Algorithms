@@ -155,5 +155,7 @@ It is the memory required by an algorithm to execute a program and produce outpu
 In order to calculate as of how much space an algorithm can take during its excution, first we need to know as how much space does primitive data
 type takes, so in python -- 
 
-|--- | --- |
+
 | Primitive data types | Bytes |
+| ---------------------| ------|
+| Boolean              | 1     |
