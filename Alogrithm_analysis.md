@@ -86,7 +86,7 @@ for which an algorithm can run/ this is the lower bound of the algorithm and it 
 
 ### Big O - Notation: (Worst Case)
 
-    ![]()
+    ![](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-2.png)
 
 
 **O(g(n)) = { f(n): there exist positive constants c and n0 such that 0 ≤ f(n) ≤ cg(n) for all n ≥ n0 }**
@@ -103,8 +103,9 @@ given algorithm will take an order of n to complete the execution.
 
 
 ### Θ - Notation: (Average Case)
+
   
-   ![]()
+   ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRksnIUnxFeSADh2ZsfsaiFN56a4HZ_LVy1gw&usqp=CAU)
    
    
 **Θ(g(n)) = { f(n): there exist positive constants c1, c2 and n0 such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ n0 }**
@@ -119,6 +120,8 @@ It basically encloses the function from above and below. Since it represents the
 There are two more asymtotic notations - 
 1. **Little O**
 1. **Little Ω** 
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/Analysis-of-Algorithms-little-o-omega.png)
 
 In the case of little O, cg(n) > f(n), which means that cg(n) is strickty greater than f(n), while in the case of little - Ω , cg(n) < f(n) whic implies
 that cg(n) is stricktly smaller than f(n).
