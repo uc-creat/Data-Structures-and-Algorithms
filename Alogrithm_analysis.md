@@ -33,4 +33,13 @@ while(y <= n):  # Comparsion -- (y<=n), but this comparison takes place until y>
 # Total time = ( 2 + 2 + n + n + (n+1)) = (3n + 5)
 ```
 
+## Order of Growth:
 
+* Constant                               |  
+* log(n)                                 | 
+* Linear - (n)                           |
+* nlog(n)                                |    INCREASES THE ORDER 
+* quadratic - (n^2)                      |
+* cubic - (n^3)                          | 
+* exponential - (c^n) # c = constant     V
+                                           
