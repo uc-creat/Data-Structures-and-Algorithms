@@ -164,4 +164,9 @@ type takes, so in python --
 | float                |  4    |
 | long                 |  8    |
 | double               |  8    |
-| ---------------------| ------|
+
+
+So, for eg:
+if we need to find that how much space does an array takes then it can be simply done by refering to the above table as - 
+
+suppose the array is of int type then, space = 4 * n , where n = size of the array.
