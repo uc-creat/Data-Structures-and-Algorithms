@@ -34,13 +34,28 @@ while(y <= n):  # Comparsion -- (y<=n), but this comparison takes place until y>
 ```
 
 ## Order of Growth:
+* Constant                                
+* log(n)                                  
+* Linear - (n)                           
+* nlog(n)                                   
+* quadratic - (n^2)                      
+* cubic - (n^3)                           
+* exponential - (c^n), where c = constant     
 
-Order Increses
-* |    Constant                                
-* |    log(n)                                  
-* |    Linear - (n)                           
-* |    nlog(n)                                   
-* |    quadratic - (n^2)                      
-* |    cubic - (n^3)                           
-* V    exponential - (c^n), where c = constant     
+## Asymtotic Notations:
+The main idea of asymptotic analysis is to have a measure of efficiency of algorithms that doesn’t depend on machine specific constants, and doesn’t require algorithms to be implemented and time taken by programs to be compared.
+There can be 3 possible cases for any algorithm - 
+
+1. Best Case    --->  minimum amount of time taken for execution
+1. Average Case --->  Average amount of time taken for execution
+1. Worst Case   --->  maximum amount of time taken for execution
+These 3 case can be represented in terms of notations called, Asymtotic Notations. So there are 3 main notations - 
+
+1. ### Big Ω - Notation: (Best Case)
+ 
+   ![](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-3.png)
+   
+   Let us consider two functions (as depicted in the above picture) -
+   
+   
                                            
