@@ -137,7 +137,23 @@ similarly if we consider the same eg as for little Ω , possible outcomes for cg
 ---
 ---
 
-## NOTE:
+### NOTE:
 
 Generally we use Big - O, for algorithm analysis, as we are interested in finding the worst case an algorithm can run for a given condition.
 By finding out Big - O of any algorithm, we can get an idea of -- as maximum of how much time can an algorithm take for execution. 
+
+---
+
+
+## Space Complexity: 
+
+The term space means ==> number of bits/bytes 
+
+So, space complexity is the amount of space consumed by an algorithm for completion of its execution.
+It is the memory required by an algorithm to execute a program and produce output.
+
+In order to calculate as of how much space an algorithm can take during its excution, first we need to know as how much space does primitive data
+type takes, so in python -- 
+
+|--- | --- |
+| Primitive data types | Bytes |
