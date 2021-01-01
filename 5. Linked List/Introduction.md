@@ -6,7 +6,9 @@ We all know arrays, arrays is a data structure which can store multiple values o
 an array can store 100 integers or 1000 floating numbers, etc.
 
 
-[array](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.oracle.com%2Fjavase%2Ftutorial%2Fjava%2Fnutsandbolts%2Farrays.html&psig=AOvVaw2GV0bNa8kyIylf9jSrL9yR&ust=1609611079950000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjIg-Sq--0CFQAAAAAdAAAAABAD)
+
+![array](https://user-images.githubusercontent.com/60755716/103444081-3ea38100-4c8b-11eb-878d-1be93d02d9ef.png)
+
 
 Like in the above picture, we can see that each element in array 'a' can be accessed through indexing. Index of an array usually starts from 0.
 So, if we want to access an element for eg: 7 from the above array 'a', we can do this by - 
@@ -25,7 +27,30 @@ or decrease the size depending upon the input. So in this case we do not have to
 Arrays have fixed amount of space, and cannot increase or decrease this space.
 Linked list overcomes this problem.
 
-In python, Linked list creates a NODE.
+In python, first we create a 'node' for a linked list. 
+
+#### Node:
+Node a simply a collection of two parts.
+1. Data
+1. Address of the next node.
+
+![address](https://user-images.githubusercontent.com/60755716/103444220-a3aba680-4c8c-11eb-873e-ee8c79aeddd1.jpg)
+
+Like in the above picture, we can see of how a node can be visualized. Now, this node is specified in the memory.
+So, whenever we call a node, we have to specify two fields of it.. one is data field, while other is the address field.
+
+So, now if we want to connect multiple nodes, we simply have to specify the address of one node in the address field of the first node, like shown below - 
+
+![connection](https://user-images.githubusercontent.com/60755716/103444227-b58d4980-4c8c-11eb-9237-6862656bc17a.jpg)
+
+In the above example, we can see that, the first node which is also mentioned as 'head' contains the address of second node. 
+While, the second node consists the address of last node, also called as tail of the linked list.
+As, after the tail node, there are no more nodes, therefore, tail node have 'NULL' as the address value in the address field.
+Basically, here we are creating a link between the nodes by specifying the address of one node in the address field of the other node.
+Due to this link, we can traverse through these connections.
+
+This connection of nodes is known as Linked list (lists/arrays which are linked together by 'links')
+
 
 
 
