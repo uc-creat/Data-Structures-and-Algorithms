@@ -11,10 +11,10 @@ an array can store 100 integers or 1000 floating numbers, etc.
 
 
 Like in the above picture, we can see that each element in array 'a' can be accessed through indexing. Index of an array usually starts from 0.
-So, if we want to access an element for eg: 7 from the above array 'a', we can do this by - 
+So, if we want to access any element for eg: if we want to access the element in the 7th position from the above array 'a', we can do this by - 
 ``` py
 
-a[3]
+a[7]
 
 ```
 So, if we can store elements in array, then what is the need for linked list?
