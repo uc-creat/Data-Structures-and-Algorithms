@@ -29,7 +29,7 @@ class linked_list:
         self.tail = newnode
         self.size += 1
         
-# searching the poition of the element e:
+# searching the position of the element e:
 
     def search(self, e):
         p = self.head
@@ -44,3 +44,6 @@ class linked_list:
             
 
 ```
+
+Here, we are simply traversing the list, using a while loop.
+first we make a 
